@@ -116,7 +116,6 @@ def test_08():
     print(nlp100.solve_09(text))
 
 
-
 def test_09():
     """
     09. Typoglycemia
@@ -131,8 +130,6 @@ def test_09():
         assert word1[0] == word2[0]
         assert word1[-1] == word2[-1]
         assert len(word1) == len(word2)
-
-
 
 
 if __name__ == '__main__':
