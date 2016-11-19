@@ -46,15 +46,6 @@ def test_24():
     content = hashlib.md5(text.encode('utf8')).hexdigest()
     assert content == '6b62b0daceb1eb13d6c9b6e3ea472dab'
 
-def test_24():
-    """solve_23の返り値は行ごとに以下の形式
-    セクション名 数字
-    """
-    import hashlib
-    text = nlp100.solve_24()
-    content = hashlib.md5(text.encode('utf8')).hexdigest()
-    assert content == '6b62b0daceb1eb13d6c9b6e3ea472dab'
-
 
 def test_25():
     right = {
